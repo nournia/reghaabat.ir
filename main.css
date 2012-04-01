@@ -48,6 +48,10 @@ body {
 	background: url(images/pattern.png);
 }
 
+h2 {
+	margin-bottom: 5px;
+}
+
 #oo {
 	margin: 10px;
 	text-align: center;
@@ -60,5 +64,26 @@ body {
 
 .centered {
 	width: 600px;
-	margin: 10px auto 20px;
+	margin: 10px auto 0;
+}
+
+#kharazi {
+	margin: 90px auto 30px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px 0px #ccc;
+}
+#kharazi img {
+	float: right;
+	margin-top: -90px;
+}
+#kharazi h2 {
+	float: right;
+	margin-top: -50px;
+}
+#kharazi p {
+	clear: both;
+	padding: 2px;
+	margin: 0;
 }
