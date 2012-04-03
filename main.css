@@ -20,6 +20,10 @@ body, input, button, p {
 	font-weight: normal;
 }
 
+p {
+	text-align: justify;
+}
+
 .btn {
 	font-size: 16px;
 	line-height: 16px;	
@@ -32,17 +36,16 @@ li {
 	line-height: 20px;
 }
 
-.table th, .table td {
-	text-align: center;
-	min-width: 50px;
-}
-
 .carousel-control {
 	direction: ltr;
 	line-height: 45px;
 }
 
 /* reghaabat */
+
+.container {
+	width: 800px;
+}
 
 body {
 	direction: rtl;
@@ -63,11 +66,6 @@ h2 {
 	display: block;
 }
 
-.centered {
-	width: 600px;
-	margin: 40px auto;
-}
-
 #kharazi img {
 	float: right;
 }
@@ -75,24 +73,41 @@ h2 {
 	padding: 50px 110px 10px;
 }
 
-.figure {
-	width: 500px;
-	margin: 20px auto;
+.table {
+	width: 450px;
+}
+.table th, .table td {
+	text-align: center;
+	min-width: 50px;
 }
 
-.figure .table {
-	margin-bottom: 0;
+.figure {
+	margin: 50px auto;
 	background-color: white;
-	border-radius: 5px;
 	box-shadow: 0px 0px 7px 0px #ccc;
 }
-.figure .caption {
-	text-align: center;
+img.figure {
+	display: block;
 }
-.figure .caption span {
+
+.caption {
+	text-align: center;
+	margin: -50px 0 40px;
+}
+.caption span {
 	background-color: white;
 	border-radius: 5px;
 	box-shadow: 0px 0px 7px 0px #ccc;
 	padding: 0px 5px;
 	color: #049cdb;
+}
+
+.carousel {
+	width: 600px;
+}
+
+#sobhe {
+	text-align: center;
+	margin-top: -18px;
+	color: #aaa;
 }
