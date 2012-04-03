@@ -63,6 +63,10 @@ em {
 	font-style: normal;
 }
 
+p.centered {
+	text-align: center;
+}
+
 #oo {
 	margin: 10px;
 	text-align: center;
@@ -71,6 +75,11 @@ em {
 #logo {
 	margin: 0 auto;
 	display: block;
+}
+
+#agha {
+	padding: 5px 0 20px;
+	text-shadow: 0 1px 1px #aaa;
 }
 
 #kharazi img {
