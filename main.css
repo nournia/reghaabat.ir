@@ -56,6 +56,13 @@ h2 {
 	margin-bottom: 5px;
 }
 
+em {
+	color: #B0B0D8;
+	font-weight: bold;
+	font-size: 15px;
+	font-style: normal;
+}
+
 #oo {
 	margin: 10px;
 	text-align: center;
