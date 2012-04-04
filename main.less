@@ -1,0 +1,141 @@
+@import "mixins.less";
+
+/* fonts */
+
+@font-face {
+	font-family: BMitra;
+	font-weight: normal;
+	src: url('fonts/BMitra.eot?#') format('eot'), url('fonts/BMitra.woff') format('woff'), url('fonts/BMitra.ttf') format('truetype');
+}
+@font-face {
+	font-family: BMitra;
+	font-weight: bold;
+	src: url('fonts/BMitraBold.eot?#') format('eot'), url('fonts/BMitraBold.woff') format('woff'), url('fonts/BMitraBold.ttf') format('truetype');
+}
+
+/* general */
+
+body, input, button, p {
+	font-family: 'B Mitra', BMitra, Arial;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+p {
+	text-align: justify;
+}
+
+.btn {
+	font-size: 16px;
+	line-height: 16px;	
+}
+
+ul, ol {
+	padding-right: 20px;
+}
+li {
+	line-height: 20px;
+}
+
+.carousel-control {
+	direction: ltr;
+	line-height: 45px;
+}
+
+/* reghaabat */
+
+.container {
+	width: 800px;
+}
+
+body {
+	direction: rtl;
+	background: url(images/pattern.png);
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+
+em {
+	color: #B0B0D8;
+	font-weight: bold;
+	font-size: 15px;
+	font-style: normal;
+}
+
+p.centered {
+	text-align: center;
+}
+
+#oo {
+	margin: 10px;
+	text-align: center;
+}
+
+#logo {
+	margin: 0 auto;
+	display: block;
+}
+
+#agha {
+	padding: 5px 0 20px;
+	text-shadow: 0 1px 1px #aaa;
+}
+
+#kharazi {
+	img {
+		float: right;
+	}
+
+	h2 {
+		padding: 50px 110px 10px;
+	}
+}
+
+.table {
+	width: 450px;
+	
+	th, td {
+		text-align: center;
+		min-width: 50px;
+	}
+}
+
+.figure {
+	margin: 50px auto;
+	background-color: white;
+	.box-shadow(0px 0px 7px 0px #ccc);
+}
+img.figure {
+	display: block;
+}
+
+.caption {
+	text-align: center;
+	margin: -50px 0 40px;
+	
+	span {
+		background-color: white;
+		.border-radius(5px);
+		.box-shadow(0px 0px 7px 0px #ccc);
+		padding: 3px 5px;
+		color: #049cdb;
+	}
+}
+
+.carousel {
+	width: 600px;
+}
+
+#download {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#sobhe {
+	text-align: center;
+	margin-top: -18px;
+	color: #aaa;
+}
