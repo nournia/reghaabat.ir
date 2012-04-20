@@ -102,8 +102,12 @@ img.figure {
   font-size: 18px;
   line-height: 22px;
 }
-#sobhe {
+#copyright {
   text-align: center;
   margin-top: -18px;
   color: #aaa;
+  font-size: 17px;
+}
+#copyright a {
+  font-size: 18px;
 }
