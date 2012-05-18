@@ -99,6 +99,16 @@ img.figure {
 .carousel {
   width: 600px;
 }
+.modal {
+  margin-top: -280px;
+}
+.modal h3 {
+  line-height: 18px;
+  margin-top: 2px;
+}
+.modal .modal-body {
+  min-height: 500px;
+}
 #download {
   font-size: 18px;
   line-height: 22px;
