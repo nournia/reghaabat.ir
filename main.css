@@ -99,6 +99,10 @@ img.figure {
 .carousel {
   width: 600px;
 }
+.thumbnails {
+  margin-top: 20px;
+  margin-left: 30px;
+}
 .modal {
   margin-top: -280px;
 }
@@ -112,6 +116,10 @@ img.figure {
 #download {
   font-size: 18px;
   line-height: 22px;
+}
+.number {
+  direction: ltr;
+  display: inline-block;
 }
 #copyright {
   text-align: center;
