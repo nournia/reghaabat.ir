@@ -9,7 +9,7 @@ body, input, button, p, textarea {
 	font-weight: normal;
 }
 
-p {
+p, li {
 	text-align: justify;
 }
 
@@ -141,6 +141,20 @@ img.figure {
 .number {
 	direction: ltr;
 	display: inline-block;
+}
+
+.points {
+	margin-bottom: 20px;
+	
+	li {
+		margin-top: 5px;
+
+		&.desc {
+			list-style: none;
+			margin-right: 20px;
+			color: #888;
+		}
+	}
 }
 
 #copyright {
