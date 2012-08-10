@@ -108,7 +108,7 @@ p.stats {
 
 .figure {
 	margin: 50px auto;
-	.box-shadow(0px 0px 7px 0px #ccc);
+	.box-shadow(0px 0px 7px #ccc);
 }
 img.figure {
 	display: block;
@@ -124,7 +124,7 @@ table.figure {
 	span {
 		background-color: white;
 		.border-radius(5px);
-		.box-shadow(0px 0px 7px 0px #ccc);
+		.box-shadow(0px 0px 7px #ccc);
 		padding: 3px 5px;
 		color: #049cdb;
 	}
@@ -149,6 +149,26 @@ table.figure {
 	.modal-body {
 		min-height: 500px;
 		overflow-x: hidden;
+	}
+}
+
+#news {
+	height: 80px;
+	
+	.span3 {
+		text-align: center;
+		height: 50px;
+		padding: 15px 0 5px;
+	
+		&.vert {
+			height: 70px;
+			padding: 0;
+		}
+	}
+	img {
+		.box-shadow(0px 0px 7px #333);
+		.opacity(60);
+		&:hover { .opacity(80); }
 	}
 }
 
